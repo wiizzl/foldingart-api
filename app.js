@@ -12,6 +12,13 @@ app.use("product", express.static("product"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "*"); // TODO: remplacer * par le domaine du site web lorsque ce dernier sera hébergé
+    res.header("Access-Control-Allow-Methods", "GET, POST");
+    res.header("Access-Control-Allow-Headers", "Content-Type");
+    next();
+});
+
 const PORT = 3000;
 app.listen(PORT, () => {
     console.log("Serveur lancé sur le port :", PORT);
