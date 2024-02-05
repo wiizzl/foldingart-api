@@ -1,0 +1,17 @@
+{
+    "title": "Carte Bat-man",
+    "description": "Plongez dans l'univers captivant de Gotham avec notre carte d'art kirigami, où la silhouette noire imposante de Batman domine.",
+    "details": "Explorez l'essence même de Gotham City avec cette nouvelle carte. Cette pièce unique capture l'intrigue et la force du Chevalier Noir, Bat-man, dans un design élégant et captivant.",
+    "sizes": {
+        "largeur": 15,
+        "longueur": 15,
+        "profondeur": ""
+    },
+    "category": "Carte",
+    "tag": "",
+    "price": 12,
+    "images": [
+        "https://folding-art.fr/Produits%20a%20vendre/Carte%20Bat-Man1/Photos%20Produit/main1.png",
+        "https://folding-art.fr/Produits%20a%20vendre/Carte%20Bat-Man1/Photos%20Produit/main2.png"
+    ]
+}

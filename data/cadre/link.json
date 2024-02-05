@@ -1,0 +1,17 @@
+{
+    "title": "Cadre Link",
+    "description": "Un tableau captivant mettant en scène Link au cœur d'un paysage enchanteur, mélangeant aventure et mystère dans l'univers emblématique de Zelda.",
+    "details": "Ce cadre magnifique dépeint l'univers envoûtant de Zelda, avec son paysage emblématique qui s'étend devant nous. L'épée de légende se distingue fièrement, aux côtés majestueux du château d'Hyrule, le tout sous le regard imposant de la lune de sang.",
+    "sizes": {
+        "largeur": 19,
+        "longueur": 23,
+        "profondeur": 2.7
+    },
+    "category": "Cadre",
+    "tag": "",
+    "price": 22,
+    "images": [
+        "https://folding-art.fr/Produits%20a%20vendre/Cadre%20Link1/Photos%20Produit/main1.png",
+        "https://folding-art.fr/Produits%20a%20vendre/Cadre%20Link1/Photos%20Produit/main2.png"
+    ]
+}

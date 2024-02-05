@@ -1,0 +1,17 @@
+{
+    "title": "Carte Hulk",
+    "description": "Découvrez la fureur inébranlable de Hulk dans notre carte d'art, où sa silhouette en vert intense est accompagnée de lettres fragmentées.",
+    "details": "Explorez la puissance brute de Hulk avec cette carte unique : la silhouette imposante du géant vert occupe le centre, accompagnée de lettres fragmentées à gauche, évoquant la force dévastatrice de ses poings. Les lettres éclatées témoignent du tumulte de l'énergie brute, créant une œuvre visuellement saisissante qui célèbre l'essence même du colosse émeraude.",
+    "sizes": {
+        "largeur": 15,
+        "longueur": 15,
+        "profondeur": ""
+    },
+    "category": "Carte",
+    "tag": "",
+    "price": 8,
+    "images": [
+        "https://folding-art.fr/Produits%20a%20vendre/Carte%20Hulk1/Photos%20Produit/main1.png",
+        "https://folding-art.fr/Produits%20a%20vendre/Carte%20Hulk1/Photos%20Produit/main2.png"
+    ]
+}

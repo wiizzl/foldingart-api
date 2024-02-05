@@ -1,0 +1,17 @@
+{
+    "title": "Carte Nike",
+    "description": "Une carte dynamique capturant l'énergie iconique du logo Nike, inspirée par l'esthétique de leur emballage distinctif, évoquant le mouvement.",
+    "details": "Cette carte met en lumière des similitudes marquantes avec les emballages emblématiques de la célèbre marque Nike. L'inscription 'EST 1964' est mise en avant, rappelant subtilement l'année de fondation de la marque.",
+    "sizes": {
+        "largeur": 15,
+        "longueur": 15,
+        "profondeur": ""
+    },
+    "category": "Carte",
+    "tag": "",
+    "price": 10,
+    "images": [
+        "https://folding-art.fr/Produits%20a%20vendre/Carte%20Nike1/Photos%20Produit/main1.png",
+        "https://folding-art.fr/Produits%20a%20vendre/Carte%20Nike1/Photos%20Produit/main2.png"
+    ]
+}

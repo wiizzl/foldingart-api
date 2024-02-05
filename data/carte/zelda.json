@@ -1,0 +1,17 @@
+{
+    "title": "Carte Zelda",
+    "description": "Une carte magnifiquement conçue arborant avec élégance le logo emblématique de Zelda.",
+    "details": "Sur cette carte captivante, se dévoile à nos yeux émerveillés le prestigieux logo du célèbre jeu Zelda. Placé au cœur de l'ensemble, ce logo occupe une position centrale qui en fait l'élément indispensable et saisissant de cette composition cartographique.",
+    "sizes": {
+        "largeur": 11,
+        "longueur": 15.5,
+        "profondeur": ""
+    },
+    "category": "Carte",
+    "tag": "",
+    "price": 9,
+    "images": [
+        "https://folding-art.fr/Produits%20a%20vendre/Carte%20Zelda1/Photos%20Produit/main1.png",
+        "https://folding-art.fr/Produits%20a%20vendre/Carte%20Zelda1/Photos%20Produit/main2.png"
+    ]
+}

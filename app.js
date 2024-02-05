@@ -3,9 +3,8 @@ const morgan = require("morgan");
 const fs = require("fs-extra");
 const path = require("path");
 
-const { fetchFiles } = require("./fetchFiles");
-
 const app = express();
+
 app.use(express.json());
 app.use(morgan("dev"));
 app.use("product", express.static("product"));
@@ -24,16 +23,43 @@ app.listen(PORT, () => {
     console.log("Serveur lancé sur le port :", PORT);
 });
 
-app.get("/product/:product", (req, res) => {
+function getAllFiles(basePath) {
+    let allFiles = [];
+    const dossiers = fs.readdirSync(basePath);
+
+    dossiers.forEach((dossier) => {
+        const dossierPath = path.join(basePath, dossier);
+        const files = fetchFiles(dossierPath);
+        allFiles = allFiles.concat(files);
+    });
+
+    return allFiles;
+}
+
+function fetchFiles(basePath) {
+    let files = [];
+    fs.readdirSync(basePath).forEach((file) => {
+        files.push(file.split(".")[0]);
+    });
+
+    return files;
+}
+
+app.get("/data/:dossier/:file", (req, res) => {
     try {
-        const productPath = path.join(__dirname, "product", `${req.params.product}.json`);
-        if (!productPath.startsWith(path.join(__dirname, "product"))) {
+        const dossierParam = req.params.dossier;
+        const fileParam = req.params.file;
+
+        const dataPath = path.join(__dirname, "data", dossierParam);
+        const filePath = path.join(dataPath, `${fileParam}.json`);
+
+        if (!fs.existsSync(dataPath) || !filePath.startsWith(path.join(__dirname, "data", dossierParam))) {
             return res.status(403).send("Oublié");
         }
 
-        fs.readFile(productPath, "utf8", function (err, data) {
+        fs.readFile(filePath, "utf8", function (err, data) {
             if (err) {
-                res.status(404).send("Non trouvé");
+                res.status(404).send("Fichier non trouvé");
             } else {
                 res.send(data);
             }
@@ -43,8 +69,27 @@ app.get("/product/:product", (req, res) => {
         res.status(500).send("Erreur interne du serveur");
     }
 });
-console.log(fetchFiles("./product"));
 
-app.get("/fetch/product", (req, res) => {
-    res.send(fetchFiles("./product"));
+app.get("/fetch/:dossier", (req, res) => {
+    try {
+        const dossierParam = req.params.dossier;
+        const dataPath = path.join(__dirname, "data");
+
+        if (dossierParam === "all") {
+            const allFiles = getAllFiles(dataPath);
+            res.send(allFiles);
+        } else {
+            const dossierPath = path.join(dataPath, dossierParam);
+
+            if (!fs.existsSync(dossierPath)) {
+                return res.status(404).send("Dossier non trouvé");
+            }
+
+            const files = fetchFiles(dossierPath);
+            res.send(files);
+        }
+    } catch (error) {
+        console.error(error);
+        res.status(500).send("Erreur interne du serveur");
+    }
 });

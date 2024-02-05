@@ -1,0 +1,17 @@
+{
+    "title": "Carte Photographe",
+    "description": "Une carte qui saisit l'âme de la photographie, présentant le portrait d'un photographe, accompagné de l'inscription 'Photographer'.",
+    "details": "Cette carte saisissante dépeint un photographe tenant délicatement son objectif entre ses mains habiles. À travers cette composition, émerge l'inscription 'photographer', subtilement fragmentée pour créer un effet de division artistique.",
+    "sizes": {
+        "largeur": 15,
+        "longueur": 15,
+        "profondeur": ""
+    },
+    "category": "Carte",
+    "tag": "",
+    "price": 9,
+    "images": [
+        "https://folding-art.fr/Produits%20a%20vendre/Carte%20Photogrape1/Photos%20Produit/main1.png",
+        "https://folding-art.fr/Produits%20a%20vendre/Carte%20Photogrape1/Photos%20Produit/main2.png"
+    ]
+}
