@@ -25,11 +25,8 @@ app.listen(PORT, () => {
 
 function getAllFiles(basePath) {
     let allFiles = [];
-    const dossiers = fs.readdirSync(basePath);
-
-    dossiers.forEach((dossier) => {
-        const dossierPath = path.join(basePath, dossier);
-        const files = fetchFiles(dossierPath);
+    fs.readdirSync(basePath).forEach((dossier) => {
+        const files = fetchFiles(path.join(basePath, dossier));
         allFiles = allFiles.concat(files);
     });
 
