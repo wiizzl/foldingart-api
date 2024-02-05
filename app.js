@@ -34,12 +34,14 @@ function getAllFiles(basePath) {
 }
 
 function fetchFiles(basePath) {
-    let files = [];
-    fs.readdirSync(basePath).forEach((file) => {
-        files.push(file.split(".")[0]);
+    let allFiles = [];
+    fs.readdirSync(basePath).forEach((dossier) => {
+        allFiles.push({
+            folder: path.basename(basePath),
+            file: dossier.split(".")[0],
+        });
     });
-
-    return files;
+    return allFiles;
 }
 
 app.get("/data/:dossier/:file", (req, res) => {
