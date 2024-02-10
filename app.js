@@ -6,7 +6,6 @@ const app = express();
 
 app.use(express.json());
 app.use(morgan("dev"));
-app.use("product", express.static("product"));
 app.use(express.urlencoded({ extended: true }));
 
 app.use((req, res, next) => {
