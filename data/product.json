@@ -1,0 +1,391 @@
+[
+    {
+        "id": "gate",
+        "title": "Cadre Torii Gate Japon",
+        "description": "Un cadre japonais envoûtant, imprégné d'un dégradé de rouge symbolique et orné d'un torii gate, d'oiseaux en vol et d'une femme avec une ombrelle.",
+        "details": "Plongez dans l'esthétique envoûtante du Japon avec ce cadre captivant, où un dégradé de rouge emblématique évoque l'essence même de la culture japonaise, orné d'un torii gate, d'oiseaux en vol et d'une femme élégante tenant une ombrelle, transportant ainsi votre imagination vers un monde empreint de grâce et de tradition.",
+        "sizes": {
+            "largeur": 24,
+            "longueur": 33,
+            "profondeur": 5
+        },
+        "category": "cadre",
+        "tag": "Nouvelle collection",
+        "price": 33,
+        "images": [
+            "https://i.ibb.co/F0wgvQ0/second1.png",
+            "https://i.ibb.co/x3H03dh/main1-1.png",
+            "https://i.ibb.co/pw2PH7R/main2.png"
+        ]
+    },
+    {
+        "id": "temple",
+        "title": "Cadre Temple Japon",
+        "description": "Un cadre mettant en scène un temple traditionnel, des montagnes majestueuses en arrière-plan et une personne naviguant sur une pirogue.",
+        "details": "Plongez dans l'atmosphère paisible du Japon avec notre cadre emblématique. Au premier plan, un temple traditionnel se dresse avec élégance, représentant la spiritualité et la culture millénaire du pays. Les montagnes en arrière-plan offrent un décor majestueux, ajoutant une touche de grandeur naturelle à la scène. Une personne est capturée sur une petite pirogue traditionnelle, naviguant tranquillement sur les eaux calmes, évoquant un sentiment de sérénité et de connexion avec la nature. Cette œuvre saisissante capture l'essence même du Japon, où la beauté, la spiritualité et l'harmonie se rejoignent dans une représentation artistique inoubliable.",
+        "sizes": {
+            "largeur": 24,
+            "longueur": 33,
+            "profondeur": 5
+        },
+        "category": "cadre",
+        "tag": "Nouvelle collection",
+        "price": 33,
+        "images": [
+            "https://i.ibb.co/KDYCFJX/second1-1.png",
+            "https://i.ibb.co/LvQ4MJF/main1-2.png",
+            "https://i.ibb.co/Hpc84Zs/main2-1.png"
+        ]
+    },
+    {
+        "id": "spiderman",
+        "title": "Cadre Spider-man",
+        "description": "Plongez dans l'action captivante de Spider-Man à travers ce cadre, où le super-héros se meut avec agilité entre les gratte-ciel de New York.",
+        "details": "Capturez l'action palpitante de Spider-Man avec notre cadre époustouflant, mettant en scène le super-héros naviguant avec agilité entre les gratte-ciel imposants de New York. Une toile d'araignée méticuleusement tissée traverse l'image, symbolisant le pouvoir emblématique de Spider-Man, ajoutant une dimension dynamique à cette représentation saisissante de l'homme-araignée évoluant dans l'urbanité majestueuse de la ville qui ne dort jamais.",
+        "sizes": {
+            "largeur": 19,
+            "longueur": 23,
+            "profondeur": 2.7
+        },
+        "category": "cadre",
+        "tag": "",
+        "price": 18,
+        "images": [
+            "https://i.ibb.co/c2ZXkw6/second1-20.png",
+            "https://i.ibb.co/RzkcRk8/main1-21.png",
+            "https://i.ibb.co/xMCZ7r9/main2-17.png"
+        ]
+    },
+    {
+        "id": "batman",
+        "title": "Carte Bat-man",
+        "description": "Plongez dans l'univers captivant de Gotham avec notre carte d'art kirigami, où la silhouette noire imposante de Batman domine.",
+        "details": "Explorez l'essence même de Gotham City avec cette nouvelle carte. Cette pièce unique capture l'intrigue et la force du Chevalier Noir, Bat-man, dans un design élégant et captivant.",
+        "sizes": {
+            "largeur": 15,
+            "longueur": 15,
+            "profondeur": ""
+        },
+        "category": "carte",
+        "tag": "",
+        "price": 12,
+        "images": [
+            "https://i.ibb.co/khbJCt4/second1-18.png",
+            "https://i.ibb.co/DzsVD6w/main1-19.png",
+            "https://i.ibb.co/nnz3X0B/main2-15.png"
+        ]
+    },
+    {
+        "id": "ironman",
+        "title": "Carte Iron-man",
+        "description": "Découvrez l'élégance technologique d'Iron-man avec notre carte d'art où sa silhouette rouge emblématique est centrée.",
+        "details": "Plongez dans l'univers héroïque avec la carte mettant en scène Iron-man : la silhouette emblématique en rouge occupe le centre, capturant la grandeur technologique de l'armure.",
+        "sizes": {
+            "largeur": 15,
+            "longueur": 15,
+            "profondeur": ""
+        },
+        "category": "carte",
+        "tag": "",
+        "price": 8,
+        "images": [
+            "https://i.ibb.co/5h56C8r/second1-16.png",
+            "https://i.ibb.co/chpYLDz/main1-17.png",
+            "https://i.ibb.co/WcdZCF9/main2-13.png"
+        ]
+    },
+    {
+        "id": "hulk",
+        "title": "Carte Hulk",
+        "description": "Découvrez la fureur inébranlable de Hulk dans notre carte d'art, où sa silhouette en vert intense est accompagnée de lettres fragmentées.",
+        "details": "Explorez la puissance brute de Hulk avec cette carte unique : la silhouette imposante du géant vert occupe le centre, accompagnée de lettres fragmentées à gauche, évoquant la force dévastatrice de ses poings. Les lettres éclatées témoignent du tumulte de l'énergie brute, créant une œuvre visuellement saisissante qui célèbre l'essence même du colosse émeraude.",
+        "sizes": {
+            "largeur": 15,
+            "longueur": 15,
+            "profondeur": ""
+        },
+        "category": "carte",
+        "tag": "",
+        "price": 8,
+        "images": [
+            "https://i.ibb.co/RcKRG9r/second1-17.png",
+            "https://i.ibb.co/FV4pcNK/main1-18.png",
+            "https://i.ibb.co/dWnf08s/main2-14.png"
+        ]
+    },
+    {
+        "id": "spider-man",
+        "title": "Carte Spider-man",
+        "description": "Plongez dans l'univers captivant de Spider-Man avec notre carte d'art, où la silhouette dynamique en noir contraste avec le rouge vif.",
+        "details": "Explorez l'univers dynamique de Spider-man à travers cette carte, où la silhouette emblématique en noir contraste avec le rouge vibrant, capturant l'agilité et l'énergie du super-héros. À droite, le nom 'Spider-Man' s'étend avec audace, ajoutant une touche visuelle qui célèbre la dualité entre l'ombre et la lumière.",
+        "sizes": {
+            "largeur": 15,
+            "longueur": 15,
+            "profondeur": ""
+        },
+        "category": "carte",
+        "tag": "",
+        "price": 12,
+        "images": [
+            "https://i.ibb.co/NVNSJ7Z/second1-9.png",
+            "https://i.ibb.co/nMkVyW1/main1-10.png",
+            "https://i.ibb.co/yWzjCZY/main2-6.png"
+        ]
+    },
+    {
+        "id": "fille",
+        "title": "Marque page d'une fille",
+        "description": "Découvrez l'enchantement d'une jeune fille sur une pile de livres, accompagnée d'une atmosphère naturelle féerique avec papillons et des feuilles.",
+        "details": "Découvrez l'enchantement d'une jeune fille sur une pile de livres, accompagnée d'une atmosphère naturelle féerique avec trois papillons et des feuilles.",
+        "sizes": {
+            "largeur": 5,
+            "longueur": 16,
+            "profondeur": ""
+        },
+        "category": "marque-page",
+        "tag": "Collaboration",
+        "price": 5,
+        "images": ["https://i.ibb.co/ZfSXrNH/second1-4.png", "https://i.ibb.co/dBKy5Lb/main1-5.png"]
+    },
+    {
+        "id": "fleurs",
+        "title": "Marque page fleurs",
+        "description": "Un marque-page aux détails somptueux, mettant en scène une profusion enchanteresse de feuilles et de fleurs.",
+        "details": "Explorez l'élégance florale avec mon remarquable marque-page entièrement dédié à la nature. Une profusion artistique de feuilles et de fleurs crée une composition visuellement riche, où le mariage subtil du rose mauve et du blanc évoque un contraste saisissant. Chaque détail est soigneusement travaillé pour offrir une expérience tactile et visuelle unique, ajoutant une touche de raffinement à chaque page de votre livre. Offrez-vous un instant de délice littéraire avec ce marque-page qui célèbre la beauté intemporelle de la nature.",
+        "sizes": {
+            "largeur": 5,
+            "longueur": 17,
+            "profondeur": ""
+        },
+        "category": "marque-page",
+        "tag": "Collaboration",
+        "price": 5,
+        "images": ["https://i.ibb.co/8db0VwP/second1-3.png", "https://i.ibb.co/hRffybX/main1-4.png"]
+    },
+    {
+        "id": "papillon",
+        "title": "Marque page papillon",
+        "description": "Découvrez le marque-page carré mettant en vedette un majestueux papillon, pièce maîtresse de cette œuvre, entouré de délicates feuilles.",
+        "details": "Offrez-vous une expérience de lecture exceptionnelle avec notre marque-page carré unique. Au cœur de cette création, un magnifique papillon devient la pièce maîtresse, capturant l'essence de la beauté et de l'élégance. Les contours délicats du papillon contrastent harmonieusement avec les feuilles qui évoquent la verdure luxuriante, créant ainsi une œuvre qui allie délicatesse et nature dans chaque coin de page.",
+        "sizes": {
+            "largeur": 6,
+            "longueur": 6,
+            "profondeur": ""
+        },
+        "category": "marque-page",
+        "tag": "Collaboration",
+        "price": 5,
+        "images": ["https://i.ibb.co/DKvRcPx/second1-5.png", "https://i.ibb.co/cJMMHX9/main1-6.png"]
+    },
+    {
+        "id": "milenium",
+        "title": "Cadre Faucon Milénium",
+        "description": "Baignez-vous dans l'univers épique de la science-fiction avec ce tableau captivant mettant en scène le Faucon Millenium.",
+        "details": "Ce cadre met en scène le légendaire 'Faucon Millenium' issu de la célèbre saga Star Wars. Le vaisseau est méticuleusement présenté avec deux couches de papier, distinctes l'une de l'autre par une distance de 4 mm, ajoutant ainsi une profondeur visuelle à l'ensemble. Le logo emblématique 'Star Wars' est fidèlement reproduit, arborant une police d'écriture blanche encadrée d'une lueur jaune, dans un souci de précision artistique.",
+        "sizes": {
+            "largeur": 19,
+            "longueur": 23,
+            "profondeur": 2.7
+        },
+        "category": "cadre",
+        "tag": "",
+        "price": 23,
+        "images": [
+            "https://i.ibb.co/XZwsqXS/second1-19.png",
+            "https://i.ibb.co/nRjRB1s/main1-20.png",
+            "https://i.ibb.co/85B9npm/main2-16.png",
+            "https://i.ibb.co/gzb7Brp/main3.png"
+        ]
+    },
+    {
+        "id": "darkside",
+        "title": "Carte Dark Side",
+        "description": "Découvrez l'essence même de la menace galactique avec cette carte captivante mettant en avant l'emblématique dark side.",
+        "details": "Cette carte illustre le concept du 'Côté Obscur' au sein de la renommée saga 'Star Wars'. Conçue pour être disposée horizontalement, elle se divise harmonieusement en deux parties. À sa gauche, se dévoile l'inscription imposante 'The Dark Side', tandis qu'à sa droite, le casque iconique de Dark Vador capte notre regard avec une aura fascinante. Une composition visuelle qui suscite une profonde réflexion sur l'aspect sombre de cet univers captivant.",
+        "sizes": {
+            "largeur": 11,
+            "longueur": 15.5,
+            "profondeur": ""
+        },
+        "category": "carte",
+        "tag": "",
+        "price": 10,
+        "images": [
+            "https://i.ibb.co/ThjM70p/second1-8.png",
+            "https://i.ibb.co/N7LW6Bt/main1-9.png",
+            "https://i.ibb.co/d0ytYbb/main2-5.png"
+        ]
+    },
+    {
+        "id": "link",
+        "title": "Cadre Link",
+        "description": "Un tableau captivant mettant en scène Link au cœur d'un paysage enchanteur, mélangeant aventure et mystère dans l'univers emblématique de Zelda.",
+        "details": "Ce cadre magnifique dépeint l'univers envoûtant de Zelda, avec son paysage emblématique qui s'étend devant nous. L'épée de légende se distingue fièrement, aux côtés majestueux du château d'Hyrule, le tout sous le regard imposant de la lune de sang.",
+        "sizes": {
+            "largeur": 19,
+            "longueur": 23,
+            "profondeur": 2.7
+        },
+        "category": "cadre",
+        "tag": "",
+        "price": 22,
+        "images": [
+            "https://i.ibb.co/qWrYcf2/second1-21.png",
+            "https://i.ibb.co/p6TYZZR/main1.png",
+            "https://i.ibb.co/NCKwt30/main2-18.png",
+            "https://i.ibb.co/cg65F7H/main3-1.png"
+        ]
+    },
+    {
+        "id": "zelda",
+        "title": "Carte Zelda",
+        "description": "Une carte magnifiquement conçue arborant avec élégance le logo emblématique de Zelda.",
+        "details": "Sur cette carte captivante, se dévoile à nos yeux émerveillés le prestigieux logo du célèbre jeu Zelda. Placé au cœur de l'ensemble, ce logo occupe une position centrale qui en fait l'élément indispensable et saisissant de cette composition cartographique.",
+        "sizes": {
+            "largeur": 11,
+            "longueur": 15.5,
+            "profondeur": ""
+        },
+        "category": "carte",
+        "tag": "",
+        "price": 9,
+        "images": [
+            "https://i.ibb.co/P6S62KD/second1.png",
+            "https://i.ibb.co/pKmTx0x/main1-8.png",
+            "https://i.ibb.co/n6tXKP4/main2-4.png"
+        ]
+    },
+    {
+        "id": "photographe",
+        "title": "Carte Photographe",
+        "description": "Une carte qui saisit l'âme de la photographie, présentant le portrait d'un photographe, accompagné de l'inscription 'Photographer'.",
+        "details": "Cette carte saisissante dépeint un photographe tenant délicatement son objectif entre ses mains habiles. À travers cette composition, émerge l'inscription 'photographer', subtilement fragmentée pour créer un effet de division artistique.",
+        "sizes": {
+            "largeur": 15,
+            "longueur": 15,
+            "profondeur": ""
+        },
+        "category": "carte",
+        "tag": "",
+        "price": 9,
+        "images": [
+            "https://i.ibb.co/JdYgdB9/second1-14.png",
+            "https://i.ibb.co/hDPMPBs/main1-15.png",
+            "https://i.ibb.co/56xpXnw/main2-11.png"
+        ]
+    },
+    {
+        "id": "groot",
+        "title": "Carte Groot",
+        "description": "Une carte touchante mettant en scène Groot, où chaque détail capture sa personnalité attachante et son lien profond avec l'univers.",
+        "details": "Au sein de cette carte, se dévoile avec tendresse le personnage attachant de Groot. Celui-ci est habilement découpé dans un style épuré, tout en conservant une fidélité remarquable à son apparence, avec des nuances de verts qui créent des contrastes visuellement captivants.",
+        "sizes": {
+            "largeur": 11,
+            "longueur": 15.5,
+            "profondeur": ""
+        },
+        "category": "carte",
+        "tag": "",
+        "price": 9,
+        "images": [
+            "https://i.ibb.co/r4JD0gQ/second1-6.png",
+            "https://i.ibb.co/7XnjBC2/main1-7.png",
+            "https://i.ibb.co/pvg1G3j/main2-3.png"
+        ]
+    },
+    {
+        "id": "nike",
+        "title": "Carte Nike",
+        "description": "Une carte dynamique capturant l'énergie iconique du logo Nike, inspirée par l'esthétique de leur emballage distinctif, évoquant le mouvement.",
+        "details": "Cette carte met en lumière des similitudes marquantes avec les emballages emblématiques de la célèbre marque Nike. L'inscription 'EST 1964' est mise en avant, rappelant subtilement l'année de fondation de la marque.",
+        "sizes": {
+            "largeur": 15,
+            "longueur": 15,
+            "profondeur": ""
+        },
+        "category": "carte",
+        "tag": "",
+        "price": 10,
+        "images": [
+            "https://i.ibb.co/kxnrpcC/second1-15.png",
+            "https://i.ibb.co/YQ2ZN3t/main1-16.png",
+            "https://i.ibb.co/K9fGcf9/main2-12.png"
+        ]
+    },
+    {
+        "id": "automne",
+        "title": "Carte Saisons Automne",
+        "description": "Une carte empreinte de la magie de l'automne, évoquant la beauté éphémère et la chaleur de cette saison dorée.",
+        "details": "Cette carte révèle une feuille d'érable méticuleusement découpée en plusieurs bandes de papier, chacune revêtant une couleur différente. L'inscription 'autumn' fait écho à cette saison magique, évoquant le spectacle vibrant de l'automne avec une élégante simplicité.",
+        "sizes": {
+            "largeur": 15,
+            "longueur": 15,
+            "profondeur": ""
+        },
+        "category": "carte",
+        "tag": "",
+        "price": 8,
+        "images": [
+            "https://i.ibb.co/Rvwhdsy/second1-13.png",
+            "https://i.ibb.co/m09PwYk/main1-14.png",
+            "https://i.ibb.co/c8vxvBJ/main2-10.png"
+        ]
+    },
+    {
+        "id": "ete",
+        "title": "Carte Saisons Eté",
+        "description": "Une carte ensoleillée qui capture l'esprit de l'été, avec des palmiers majestueux, transportant instantanément vers des îles lointaines.",
+        "details": "Au cœur de cette carte, les palmiers s'imposent en tant qu'élément central, occupant tout l'espace visuel. L'inscription 'summer' se découvre sous leur ombre, évoquant ainsi la saison estivale avec une touche de sérénité tropicale.",
+        "sizes": {
+            "largeur": 15,
+            "longueur": 15,
+            "profondeur": ""
+        },
+        "category": "carte",
+        "tag": "",
+        "price": 10,
+        "images": [
+            "https://i.ibb.co/vqLYHM8/second1-12.png",
+            "https://i.ibb.co/6X5PMtG/main1-13.png",
+            "https://i.ibb.co/hYbXFN7/main2-9.png"
+        ]
+    },
+    {
+        "id": "hiver",
+        "title": "Carte Saisons Hiver",
+        "description": "Une carte hivernale enchanteuse qui dépeint une majestueuse montagne, où un imposant ours se fond harmonieusement dans le paysage.",
+        "details": "Dans cette carte disposée horizontalement, l'ambiance hivernale est à l'honneur. Elle offre une vision minimaliste mais évocatrice, avec la silhouette discrète d'une montagne et la présence majestueuse d'un ours, le tout capturant la magie de l'hiver avec une simplicité épurée.",
+        "sizes": {
+            "largeur": 15,
+            "longueur": 15,
+            "profondeur": ""
+        },
+        "category": "carte",
+        "tag": "",
+        "price": 8,
+        "images": [
+            "https://i.ibb.co/sJn57Ky/second1-11.png",
+            "https://i.ibb.co/rHCRPJ5/main1-12.png",
+            "https://i.ibb.co/MPLJQvv/main2-8.png"
+        ]
+    },
+    {
+        "id": "printemps",
+        "title": "Carte Saisons Printemps",
+        "description": "Une carte éclatante célébrant l'arrivée de la saison printanière, ornée d'un arc-en-ciel chatoyant se profilant au-dessus de doux nuages moelleux.",
+        "details": "Dans cette carte, le thème printanier s'épanouit avec évidence. Les nuages en relief se détachent, formant un tableau éthéré où l'aurore d'un arc-en-ciel se profile à l'horizon, évoquant ainsi le renouveau de la saison.",
+        "sizes": {
+            "largeur": 15,
+            "longueur": 15,
+            "profondeur": ""
+        },
+        "category": "carte",
+        "tag": "",
+        "price": 8,
+        "images": [
+            "https://i.ibb.co/34MVS90/second1-10.png",
+            "https://i.ibb.co/8Y7sjW4/main1-11.png",
+            "https://i.ibb.co/Xs1gqQv/main2-7.png"
+        ]
+    }
+]
