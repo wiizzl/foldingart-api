@@ -1,0 +1,15 @@
+[
+    {
+        "id": "margotte",
+        "title": "Collaboration - Les Lectures De Margotte",
+        "pdp": "https://folding-art.fr/Ressources%20fixes/leslecturesdemargotte.jpg",
+        "date": "14/01/2024",
+        "description": "Je suis ravi de collaborer avec Margotte, une passionnée de la lecture, et plus précisément une amoureuse des romans. Elle m'a fait l'honneur de me contacter pour célébrer ses 2 000 abonnés sur Instagram en lui offrant un cadeau spécial. Pour explorer son univers littéraire captivant, n'hésitez pas à jeter un coup d'œil à son profil. Cliquez sur le bouton ci-dessous pour plonger dans son monde de romance et de découvertes littéraires.",
+        "link": "https://www.instagram.com/leslecturesdemargotte/",
+        "product": [
+            { "name": "fille", "url": "https://i.ibb.co/ZfSXrNH/second1-4.png" },
+            { "name": "fleurs", "url": "https://i.ibb.co/8db0VwP/second1-3.png" },
+            { "name": "papillon", "url": "https://i.ibb.co/DKvRcPx/second1-5.png" }
+        ]
+    }
+]

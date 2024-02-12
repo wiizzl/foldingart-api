@@ -15,7 +15,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.get("/data/:id", (req, res) => {
+app.get("/product/:id", (req, res) => {
     const idRecherche = req.params.id;
 
     fs.readFile("./data/product.json", "utf8", (err, data) => {
@@ -33,6 +33,30 @@ app.get("/data/:id", (req, res) => {
         const elementTrouve = contenuJSON.find((element) => element.id === idRecherche);
         if (!elementTrouve) {
             res.status(404).send("Produit non trouvé");
+            return;
+        }
+        res.json(elementTrouve);
+    });
+});
+
+app.get("/collab/:id", (req, res) => {
+    const idRecherche = req.params.id;
+
+    fs.readFile("./data/collab.json", "utf8", (err, data) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send("Erreur lors de la lecture du fichier JSON");
+            return;
+        }
+        const contenuJSON = JSON.parse(data);
+
+        if (idRecherche === "all") {
+            res.json(contenuJSON);
+            return;
+        }
+        const elementTrouve = contenuJSON.find((element) => element.id === idRecherche);
+        if (!elementTrouve) {
+            res.status(404).send("Collaboration non trouvée");
             return;
         }
         res.json(elementTrouve);
